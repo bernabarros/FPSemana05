@@ -4,8 +4,8 @@ class Produto:
         self.preco = preco
         self.quantidade = quantidade
     def adicionar_stock(self,quantidade):
-        self.quantidade = self.quantidade + quantidade
         if quantidade > 0:
+            self.quantidade = self.quantidade + quantidade
             print("1")
         else:
             print("0")
